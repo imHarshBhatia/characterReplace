@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Jun 16 16:48:07 2018
-
-@author: Dell
-"""
-
 import re
 import os
 
