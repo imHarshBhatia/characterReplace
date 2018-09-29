@@ -20,6 +20,6 @@ def read_all_files(path,inputPath,outputPath):
         count += 1
 
 reg_ex = re.compile('[^\x00-\x7F]')
-path = os.getcwd() + "\Input"
+path = os.getcwd() + "\Input" #os.getcwd() gets the current working directory
 inputPath,outputPath = "./Input/","./Output/"
 read_all_files(path,inputPath,outputPath)
